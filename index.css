@@ -348,7 +348,67 @@
     display: none;
   }
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+ * {
   border: 5px solid black;
 }
-  
+h1 {
+  font-size: 50px;
+  font-family: 'Chelsea Market', cursive;
+}
+
+header {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.visit{
+  background-color:#FF764E;
+  color:white;
+  text-decoration:none;
+  font-family: 'Roboto Mono', monospace;
+  display: inline-block;
+  border-radius: 15%;
+  padding: 10px;
+  margin: 10px 40px 10px 40px;
+  width: 8rem;
+  font-size: 100%;
+}
+
+.learn{
+  background-color:#5ED3EB;
+  color:white;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  display: inline-block;
+  border-radius: 15%;
+  padding: 10px;
+  margin: 10px 40px 10px 40px;
+  width: 8rem;
+  font-size: 100%;
+}
+
+.involved{
+  background-color:#FFCD69;
+  color:white;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  display: inline-block;
+  border-radius: 15%;
+  padding: 10px;
+  margin: 10px 40px 10px 40px;
+  width: 8rem;
+  font-size: 100%;
+}
+
+div {
+  font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+  font-family: 'Roboto Mono', monospace;
+}
+
