@@ -348,5 +348,7 @@
     display: none;
   }
 
-
+*{
+  border: 5px solid black;
+}
   
