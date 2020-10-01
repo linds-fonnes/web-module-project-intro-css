@@ -386,7 +386,19 @@ header {
   margin-left: 50%;
   margin-right: 50%;
   padding-top: 3rem;
+  position: relative;
+  right: 90px;
 
+}
+
+#camper {
+  width: 15rem;
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  padding-top: 3rem;
+  position: relative;
+  right: 90px;
 }
 
 
@@ -449,7 +461,9 @@ header {
 .p2 {
   line-height: 1.5rem;
   font-size: 1.5rem;
-  
+  position: relative; 
+  right: 130px; 
+  /* width: 50%; */
 }
  .p3 {
    line-height: 1.5rem;
