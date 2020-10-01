@@ -363,12 +363,32 @@ body {
 h1 {
   font-size: 5rem;
   font-family: 'Chelsea Market', cursive;
+  position: relative;
+  top: 40px;
 }
 
 header {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
 }
+
+#headImg {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25rem;
+  margin: 5% auto;
+  margin-left: 10% ;
+}
+
+#campfire {
+  width: 15rem;
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  padding-top: 3rem;
+
+}
+
 
 .visit{
   background-color:#FF764E;
@@ -411,10 +431,44 @@ header {
 
 .main{
   background-color:#DDB9A3;
+  font-size: 1rem;
+  color:white;
+  /* text-align: justify; */
+  margin-left: 4rem;
+  margin-right: 4rem;
+
 }
 
+.p1{
+  padding-top: .5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.p2 {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  
+}
+ .p3 {
+   line-height: 1.5rem;
+   text-align: center;
+   font-size:1.5rem;
+ }
+
+ .p4 {
+   line-height: 2rem;
+   text-align:center;
+   font-size:1.5rem;
+
+ }
 div {
   font-family: 'Roboto Mono', monospace;
+}
+
+span {
+  font-weight: bold;
 }
 
 nav {
@@ -422,4 +476,5 @@ nav {
   background-color:#F9E7DC;
   text-align: center;
 }
+
 
