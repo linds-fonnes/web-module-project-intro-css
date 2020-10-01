@@ -352,9 +352,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
- * {
-  border: 5px solid black;
-}
+ /* * { */
+  /* border: 5px solid black; */
+/* } */
 
 body {
   font-size: 10px;
@@ -376,8 +376,15 @@ header {
   border-radius: 50%;
   display: inline-block;
   width: 25rem;
-  margin: 5% auto;
+  /* margin: 5% auto; */
   margin-left: 10% ;
+}
+
+#footerImg {
+  display: inline-block;
+  width: 100%;
+  min-height: 50%;
+  height: 20rem;
 }
 
 #campfire {
@@ -461,8 +468,9 @@ header {
 .p2 {
   line-height: 1.5rem;
   font-size: 1.5rem;
-  position: relative; 
-  right: 130px; 
+  text-align: center;
+  /* position: relative;  */
+  /* right: 130px;  */
   /* width: 50%; */
 }
  .p3 {
