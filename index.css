@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* Nav Bar */
+.planYourVisit {
+  background-color: #ff764e;
+}
+
+.learnAboutThePark {
+  background-color: #5ed3eb;
+}
+
+.getInvolved {
+  background-color: #ffcd69;
+}
+nav a {
+  border-radius: 15px;
+  font-size: 2.2rem;
+  padding: 1%;
+  margin: 2%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 14%;
+}
+nav {
+  margin: 2% 20% 2% 20%;
+  width: 100%;
+  padding-left: 6%;
+}
+/* Header */
+body {
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 6rem;
+  display: inline-block;
+}
+
+.mainText {
+  background-color: #ddb9a3;
+  width: 70%;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2%;
+  margin-left: 15%;
+  margin-top: 4%;
+}
+.mainText p {
+  padding: 1%;
+}
+header img {
+  border-radius: 50%;
+  width: 20%;
+  margin-left: 15%;
+  display: inline-block;
+}
+
+header p {
+  display: inline-block;
+  position: absolute;
+  font-size: 3rem;
+}
+#p1 {
+  top: 35%;
+  left: 35%;
+  padding: 2%;
+  margin: 1%;
+  width: 45%;
+  text-align: center;
+}
+#p2 {
+  top: 43%;
+  left: 40%;
+  padding: 2%;
+  margin: 1%;
+  text-align: center;
+  width: 30%;
+}
+/*Main Text of Page*/
+span {
+  font-weight: bold;
+}
+
+.galleryImage {
+  width: 10%;
+  margin-left: 45%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.sectionText {
+  font-size: 2rem;
+  width: 20%;
+  text-align: center;
+  margin-left: 40%;
+}
+/* Footer */
+footer nav {
+  background-color: #f9e7dc;
+  width: 100%;
+  padding: 1%;
+  margin: 0;
+}
+footer {
+  width: 100%;
+}
+footer nav a {
+  margin-left: 13%;
+}
+
+footer img {
+  background-image: src= "assets/footer_img.jpg";
+  width: 100%;
+  height: 60vh;
+  background-position: top;
+  margin-top: 5%;
+}
